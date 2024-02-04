@@ -1,0 +1,19 @@
+{
+	"db": {
+		"host": "localhost",
+		"port": 5432,
+		"username": "postgres",
+		"password": "password",
+		"schema": "gosmart",
+		"table": "partition_records",
+		"initialize": true
+	},
+	"attributes": [
+		5, 187, 188, 197, 198
+	],
+	"partitions": [
+		"/dev/sdc2",
+		"/dev/sda2"
+	],
+	"output_type": "json"
+}
